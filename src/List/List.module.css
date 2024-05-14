@@ -1,0 +1,59 @@
+.todoContainer {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.todoForm {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.taskInput {
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.addButton {
+    background-color: #3c90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.todoList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.todoItem span {
+    flex: 1;
+}
+
+.deleteButton {
+    background-color: #ff4444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.arrowImg {
+    width: 20px;
+    height: auto;
+    margin-left: 5px;
+    cursor: pointer;
+}
